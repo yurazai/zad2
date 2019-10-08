@@ -17,8 +17,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        // ChessPrinter.printChess(new ChessParams(args));
-
         while (true) {
             Scanner scanner = new Scanner(System.in);
             float f1;
@@ -36,8 +34,7 @@ public class Main {
 
                 if (compare(convert1, convert2)) {
                     System.out.println("convert 2 is > convert 1");
-                }
-                else {
+                } else {
                     System.out.println("convert 2 is < convert 1");
                 }
 
